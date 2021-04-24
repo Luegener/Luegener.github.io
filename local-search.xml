@@ -5,8 +5,8 @@
   
   <entry>
     <title>更“优雅”地访问Github</title>
-    <link href="/2021/04/24/%E6%9B%B4%E2%80%9C%E4%BC%98%E9%9B%85%E2%80%9D%E5%9C%B0%E8%AE%BF%E9%97%AEGithub/he"/>
-    <url>/2021/04/24/%E6%9B%B4%E2%80%9C%E4%BC%98%E9%9B%85%E2%80%9D%E5%9C%B0%E8%AE%BF%E9%97%AEGithub/he</url>
+    <link href="/2021/04/24/%E6%9B%B4%E2%80%9C%E4%BC%98%E9%9B%85%E2%80%9D%E5%9C%B0%E8%AE%BF%E9%97%AEGithub/"/>
+    <url>/2021/04/24/%E6%9B%B4%E2%80%9C%E4%BC%98%E9%9B%85%E2%80%9D%E5%9C%B0%E8%AE%BF%E9%97%AEGithub/</url>
     
     <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/">Github</a> 是开源项目的圣地，但其在国内访问速度很慢，最主要的原因就是GitHub的分发加速网络域名遭到了DNS的污染。为了解决这个问题，可以通过修改Hosts文件，绕过国内的DNS解析，直接访问GitHub的CDN节点，从而达到加速的目的。</p><h2 id="SwitchHosts"><a href="#SwitchHosts" class="headerlink" title="SwitchHosts"></a>SwitchHosts</h2><p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/oldj/SwitchHosts">SwitchHosts</a>是一款Hosts快速切换小工具，作用是用来一键切换Hosts配置文件，非常实用,操作起来非常简单。目前发布的版本为 <code>v4.0</code> 版本.它有着一些很不错的特性，比如：</p><ul><li>免费、开源、支持三大操作系统</li><li>系统托盘快速「一键切换」不同的 hosts 方案</li><li>支持 hosts 文件语法高亮，可以方便用户更直观地阅读和修改 Hosts 内容</li><li>编辑 hosts 时，可以点击行号可以对行进行快速注释或取消注释</li>  <p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://ghproxy.com/https://github.com/oldj/SwitchHosts/releases/download/v4.0.0/SwitchHosts_installer_4.0.0.6029.exe">SwitchHost镜像下载</a>（已加速）</p></ul><h2 id="修改Host"><a href="#修改Host" class="headerlink" title="修改Host"></a>修改Host</h2><p>通过SwitchHosts，每次 hosts 有更新都能及时进行更新，免去了手动更新的麻烦</p><ol></ol><h2 id="项目截图"><a href="#项目截图" class="headerlink" title="项目截图"></a>操作流程</h2><p><img src="https://image-static.segmentfault.com/287/176/2871763533-6017d270b4f09" lazyload alt="界面"></p><p><img src="https://raw.githubusercontent.com/521xueweihan/GitHub520/main/img/switch-hosts.png" lazyload alt="远程导入"></p><p>项目URL: https://cdn.jsdelivr.net/gh/521xueweihan/GitHub520@main/hosts</p><p>其中Auto Refresh: 最好选 1 hour</p>]]></content>
     
